@@ -1,0 +1,106 @@
+
+
+body {
+background-color: #87CEEB;   
+color:#000000;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+}
+nav a {
+  text-decoration: none;
+  color: #b6610c; 
+  font-weight: bold;
+}
+nav a ul :hover {
+  background-color: #000000;
+}
+/* unsure how to get hover element to work on nav.*/
+
+nav ul li { 
+  list-style: none;
+  line-height: 2.0;
+  text-align: center;
+}
+h1{
+  color: #b6610c;
+  text-align: center;
+}
+.address-center {
+  text-align: center;
+}
+h2{
+  color: #b6610c;
+  text-align: center;
+}
+h3{
+  color: #b6610c;
+}
+#center{
+  text-align: center;
+}
+dl dt{
+  color: #b6610c;
+  font-weight: bold;
+}
+
+
+img {
+border-radius: 25px;
+width: 525px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+table {
+border: solid black;
+border-radius: 25px;
+background-color: #FED8B1;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+th, td {
+border:0.5px solid black;
+padding: .5em;
+
+}
+.right-1 {
+  float: right;
+  width: 50%;
+}
+.left-1 {
+  float: left;
+  width: 50%;
+  
+}
+.right-2 {
+  float: right;
+  margin-top: 1%;
+  width: 50%;
+}
+.left-2 {
+  float: left;
+  width: 50%;
+}
+.right-3 {
+  float: right;
+  width: 50%;
+}
+.left-3 {
+  float: left;
+  width: 50%;
+}
+
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+  .clearfix {
+    clear: both;
+  }
