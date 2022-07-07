@@ -1,0 +1,84 @@
+body {
+        background-color: black;
+}
+
+#triangle-dark-gray { 
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 300px solid lightgray;
+        border-right: 275px solid #36454F;
+        border-bottom: 300px solid transparent;
+        
+}
+#triangle-dark-gray:hover {
+        transform: rotate(360deg);
+        transition: 0.3s ease-in-out;
+}
+#triangle-red {
+        position: absolute;
+        right: 808px;
+        width: 0;
+        height: 0;
+        border-top: 300px solid transparent;
+        border-right: 275px solid red;
+        border-bottom: 300px solid lightgray;
+        float: right;
+
+        animation: pulse 5s infinite;
+
+}
+#triangle-yellow {
+        position: absolute;
+        top: 310px;
+         width: 0;
+        height: 0;
+        border-top: 206px solid transparent;
+        border-left: 200px solid #FFDB58;
+        border-bottom: 90px solid transparent;
+
+}
+       
+#triangle-white {   
+        position: absolute;
+        left: 285px;
+        width: 0;
+        height: 0;
+        border-top: 155px solid transparent;
+        border-left: 175px solid #F2F3F5;
+        border-bottom: 155px solid transparent;
+ 
+}
+#triangle-gray {
+      left: 288px;
+      position: absolute;
+      Width:0;
+      height: 0;
+      border-left: 160px solid transparent;
+      border-right: 110px solid transparent;
+      border-top: 140px solid gray;
+      }
+
+#triangle-bisque {       
+        position: absolute;
+        top: 452px;
+        left: 8px;
+        width: 0;
+        height: 0;
+        border-left: 175px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 155px solid bisque; 
+        
+}
+
+    
+      @keyframes pulse {
+        0% {
+                background-color: gray;
+        }
+        100% {
+                background-color: red;
+        }
+        
+        }
+    
