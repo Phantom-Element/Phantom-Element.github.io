@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Your Memories</title>
+    <link rel="stylesheet" href="css/hovander.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script>
+        function validateForm() {
+            if (document.forms[0].myComments.value == "") {
+                alert("Please enter a comment . ");
+                return false;
+            } // end if
+            return true;
+        } 
+    </script>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="hovander.html">Home</a></li>
+            <li><a href="hovander-family.html">Their Story</a></li>
+            <li><a href="our-story.html">Our Family Story</a></li>
+            <li><a href="your-story.html">Your Story</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <h1 id="margin">Share Your Memories and Photos!</h1>
+
+        <form action="comments.html" method="post" onsubmit="return validateForm ();">
+
+            <!--create html with text (Thank you for signing in.)-->
+
+            <label for="myComments">Comments:</label>
+
+            <input type="comments" name="myComments" id="myComments">
+            <br> <br>
+
+            <input type="Submit" value="Submit" name="mySubmit" id="mySubmit">
+            
+        </form>
+ 
+    </main>
+    <footer>
+        Copyright &copy; 2022 Laura Pen
+    </footer>
+
+</body>
+
+</html>

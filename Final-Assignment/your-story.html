@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovander Park Memories</title>
+    <link rel="stylesheet" href="css/hovander.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script>
+
+        function validateForm() {
+            if (document.forms[0].myUsername.value == "") {
+                alert("Please enter your username . ");
+                return false;
+            }
+            if (document.forms[0].myName.value == "") {
+                alert("Please enter your name . ");
+                return false;
+            }           
+            if (document.forms[0].myEmail.value == "") {
+                alert("Please enter an e-mail address . ");
+                return false;
+            } // end if
+            if (document.forms[0].myPassword.value == "") {
+                alert("Please enter a password . ");
+                return false;
+            }
+            return true;
+        } // end function validateForm
+
+    </script>
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="hovander.html">Home</a></li>
+            <li><a href="hovander-family.html">Their Story</a></li>
+            <li><a href="our-story.html">Our Family Story</a></li>
+            <li><a href="your-story.html">Your Story</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <main>
+        <h1>Hovander Park Memories</h1>
+
+        <h2>Create an Account and Share Your Hovander Park Memories!</h2>
+
+        <p id="wrap">All information is required. (*).</p>
+     <br> <br>
+
+     <form action="memory-share.html" method="post" onsubmit="return validateForm ();">
+
+         <!--Create HTML with text (Thank you for creating an account with us!).-->
+
+         <label for="myUsername">*Username:</label>
+         <input type="username" name="myUsername" id="myUsername">
+         <br><br>
+         
+         <label for="myName">*Name:</label>
+         <input type="name" name="myName" id="myName">
+         <br><br>
+         
+         <label for="myEmail">*E-mail:</label>
+
+         <input type="email" name="myEmail" id="myEmail">
+         <br><br>
+         <label for="myPassword">*Create Password:</label>
+
+         <input type="password" name="myPassword" id="myPassword">
+         <br><br>
+         <input type="Submit" value="Submit" name="mySubmit" id="mySubmit">
+         <br><br>
+         <a href="sign-in.html">Or Sign In</a>
+
+
+     </form>
+    </main>
+
+    <footer>
+        Copyright &copy; 2022 Laura Pen
+    </footer>
+
+</body>
+
+</html>

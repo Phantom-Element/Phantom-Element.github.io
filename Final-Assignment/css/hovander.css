@@ -1,0 +1,96 @@
+/*.banner{
+    background-image: url("../images/arbor1.jpg");
+    background-size: cover;
+    height: 50%;
+    padding: 100px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    margin: 0;   
+}  */
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;   
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    font-size: larger;
+    list-style: none;
+    margin: 1%;
+    margin-bottom: 1.5%;
+    text-align: right;
+    display: inline;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h1, h2 {
+    color: blue;
+}
+img {
+    margin-bottom: 2%;
+}
+#family {
+   margin-bottom: 1%;
+   margin-top: 2%;
+   text-align: center;
+}
+#house {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  
+}
+.left-1 {
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.right-1 {
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+#watchtower {
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.clear {
+    clear: both;
+}
+form{
+    background-color: #89CFF0;
+    font-size: medium;
+    margin: 80px auto;
+    margin-top: 5px;
+    padding: 30px;
+    width: 300px;
+ }
+ form a{  
+     font-weight: bold;
+     color: darkblue;
+ }
+ 
+ form label{
+     display: inline-block;
+     width: 80px;
+ }
+ input[type="comments"] {
+    height: 350px;
+    width: 240px;
+    margin-top: 8%;
+ }
+ #margin {
+    margin-bottom: 10%;
+ }
+ #wrap {
+    text-align: center;
+ }
