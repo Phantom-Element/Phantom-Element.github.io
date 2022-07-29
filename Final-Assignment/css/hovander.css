@@ -48,15 +48,31 @@ img {
     margin-top: 5%;
   
 }
-.left-1 {
+/*.left-1 {
     float: left;
-    margin-left: 10%;
+    /*margin-left: 10%;
     margin-bottom: 5%;
 }
 .right-1 {
     float: right;
-    margin-right: 10%;
+   /* margin-right: 10%;
     margin-bottom: 5%;
+}*/
+.img-center {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.right-1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    
+   
+}
+.small-img {
+    float:left;
+    width:50%;
+    margin: 20px 20px 20px 20px;
+    /*I ended up using float left instead of display because it wasn't cooperating.*/
 }
 #watchtower {
     text-align: center;
