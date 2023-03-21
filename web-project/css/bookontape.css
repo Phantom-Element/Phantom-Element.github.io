@@ -1,0 +1,174 @@
+header{
+    color:#4b0082;
+    text-align: center;
+}
+nav a{
+    color: #4b0082;
+    margin-right: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul{
+    font-size: large;
+    list-style: none;
+    text-align: center;
+      
+}
+nav ul li{
+    display: inline;
+    
+}
+/** How do I make my nav list horizontal?**/
+
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+.banner{
+    background-image: url("../images/nong-v-unsplash.jpg");
+    background-size: cover;
+    height: 70vh;
+    padding: 100px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+    margin: 0;    
+}
+.text-content{
+    width: 60%;
+    margin: 40px auto;
+}
+/* Banner is not displaying book in image. Ask Professor B how I may fix.*/
+
+body{
+    background-color: #fffff0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: #4b0082;
+    padding: 25px;
+       /*Should I use pixels here, or another unit. Does the value look pleasing on the page?*/
+    text-align: center;
+}
+h2{
+    color: #ba55d3;
+    text-align: center;
+}
+#header-color{
+    color: #ba55d3;
+}
+dl{
+    padding: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+dt{
+    text-align: center;
+}
+
+.left-1 img{
+    border-radius: 25px;
+    float: left;
+    width: 45%;
+    
+} 
+.right-1{
+    float: right;
+    width: 45%;
+
+}
+.left-2{
+    float: left;
+    margin-top: 0;
+    width: 45%;
+}
+.left-2 h2{
+    text-align: left;
+}
+.right-2 img{
+    border-radius: 25px;
+    float: right;
+    margin-top: 15px;
+    width: 40%;
+    margin-bottom: 15px;
+}
+.clearfix{
+    clear: both;
+}
+main{
+    margin: 0 15%;
+}
+main ul{
+    text-align: right;
+}
+main ul li{
+    list-style: none;
+    text-align: center;
+    
+}
+.Wrap{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    }
+button{
+    background-color: #c8a2c8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+form{
+   background-color: #c8a2c8;
+   font-size: medium;
+   margin: 80px auto;
+   margin-top: 5px;
+   padding: 30px;
+   width: 300px;
+}
+form a{
+    color: #4b0082;
+    font-weight: bold;
+}
+.form-submit-button{
+    background-color: #c8a2c8; 
+}
+form label{
+    display: inline-block;
+    width: 80px;
+}
+table, th, td{
+    border: 1px solid;
+    background-color:#c8a2c8;
+    width: 70%;
+    margin: auto;
+    padding: 25px; /*Does padding look good here?*/
+    
+}
+th{
+    height: 90px;
+}
+td{
+    height: 80px;
+}
+footer{
+    color: #4b0082;
+}
+footer a{
+    color: #4b0082;
+}
+
+
+    

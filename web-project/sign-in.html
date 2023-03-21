@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign into Book on Tape</title>
+    <link rel="stylesheet" href="css/bookontape.css">
+    <script>
+        function validateForm() {
+            if (document.forms[0].myEmail.value == "") {
+                alert("Please enter an e-mail address . ");
+                return false;
+            } // end if
+            if (document.forms[0].myPassword.value == "") {
+                alert("Please enter a password . ");
+                return false;
+            }
+            return true;
+        } 
+    </script>
+    <!--If I want this for both email and password-would I need to duplicate this function? Can a + sign be used?-->
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="text-content">
+                <h1>Welcome to Book on Tape!</h1>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="editors-choice.html">Editor's Choice</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="forum.html">Forums</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign-in.html">Sign In</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2>Sign into Book On Tape</h2>
+
+        <form action="signed-in.html" method="post" onsubmit="return validateForm ();">
+
+            <!--create html with text (Thank you for signing in.)-->
+
+            <label for="myEmail">E-mail:</label>
+
+            <input type="email" name="myEmail" id="myEmail">
+            <br> <br>
+            <label for="myPassword">Password:</label>
+
+            <input type="password" name="myPassword" id="myPassword">
+            <br><br>
+            <input type="Submit" value="Sign In" name="mySubmit" id="mySubmit">
+            <br><br>
+            <a href="create-account.html">Or Create an Account</a>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <a href="https://twitter.com/">Follow us on Twitter!</a>
+        <!--May use twitter logo later.-->
+        <br><br>
+        Copyright &copy; 2022 Laura Pen
+    </footer>
+</body>
+
+</html>

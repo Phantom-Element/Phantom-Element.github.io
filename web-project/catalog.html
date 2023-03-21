@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book on Tape</title>
+    <link rel="stylesheet" href="css/bookontape.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <div class="text-content">
+                <h1>Welcome to Book on Tape!</h1>
+            </div>
+        </div>
+
+        <!--Remember to move closing div to below the closing ul if I want nav elements on banner. create-account html is designed this way.-->
+
+        <!--If I don't want to center align this header for all pages do I create it's own class? Or perhaps its own id?I think I may have figured this out. Unless I want a different alignment for certain headers an id or class isn't necessary.-->
+
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="editors-choice.html">Editor's Choice</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="forum.html">Forums</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign-in.html">Sign In</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Catalog</h1>
+
+        <!--This page needs a complete overhaul. Take out dl and change dt to h1. Change dd to p tag. It may help with a a lot of issues. Go from there.-->
+
+
+
+        <div class="left-2">
+            <h2><strong>The Doors/No One Here Gets Out Alive</strong></h2>
+            
+            <p>
+
+                The biography and accompanying biopic about lead singer of The Doors, Jim Morrison. No One
+                Here Gets Out Alive, takes you on a journey of the rock star's tragic life and death. This is a set
+                that is not to be missed. <br><br>
+                <strong>DVD/Paperback Combo - $25 
+                </strong>
+                <br><br><br>
+                <button onclick="showAlert()">Add to Cart</button>
+
+                <!--Would a window.alert here work for "Added to Cart" popup? Or should a var be used-->
+                <!--May need to move button to it's own div if I want to create button class. Ask Professor B for suggestion. And still need to JS validate.-->
+
+            </p>
+        </div>
+
+        <div class="right-2">
+            <img src="images/Doors.jpg" alt="The Doors">
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="left-2">
+            <h2><strong>Frankenstein</strong></h2>
+            
+            <p>
+                Mary Shelley's Frankenstein is a gothic classic that all are familiar with but may not have read.
+                Some may think of the monster strapped to a table and being brought to life by lightning. The novel
+                digs deeper than the classic monster movie and provides commentary on society and what it means to
+                be human. The accompanying film directed by Kevin Connor and starring Donald Sutherland provides an
+                astounding visual of this classic tale. <br><br>
+                <strong>DVD/Paperback Combo - $30 <br>
+                </strong>
+                <br><br>
+                <button onclick="showAlert()">Add to Cart</button> 
+            </p>
+        </div>
+
+        <div class="right-2">
+            <img src="images/Frankenstein.jpg" alt="Frankenstein">
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="left-2">
+            <h2><strong>The Hunger Games</strong></h2>
+
+            <p>
+                Katniss Everdeen lives in a dystopian society where all children from the ages of 12 to 18 must play
+                in a life or death match called The Hunger Games. Join Katniss in her heroic journey as she fights
+                for herself and the people she loves. Read the novel that started it all, written by Suzanne
+                Collins.
+                <br><br>
+                <strong>DVD/Paperback Combo - $23 <br>
+                </strong>
+                <br><br>
+                <button onclick="showAlert()">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="right-2">
+            <img src="images/HungerGames.jpg" alt="">
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="left-2">
+            <h2><strong>The Phantom of the Opera</strong></h2>
+
+            <p>
+                Gaston Leroux's The Phantom of the Opera inspired sequels, movies, and the famous broadway musical
+                produced by Andrew Lloyd Webber. Another tragic but beautiful story about a masked monster hated by
+                society; and the salvation he found within his love for an opera singer. Now you can watch Andrew
+                Lloyd Webber's film version of his musical, starring Gerard Butler and Emmy Rossum.
+                <br><br>
+                <strong>DVD/Paperback Combo - $26 <br>
+                </strong>
+                <br><br>
+                <button onclick="showAlert()">Add to Cart</button><br>
+            </p>
+        </div>
+
+        <div class="right-2">
+            <img src="images/POTO.jpg" alt="The Phantom of the Opera">
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="left-2">
+            <h2><strong>The Princess Bride</strong></h2>
+
+            <p>
+                Editor's Choice - See description via the link below.
+                <br><br>
+                <strong>DVD/Hardcover Combo - $40 <br>
+                </strong>
+                <br><br>
+                <a href="editors-choice.html">Editor's Choice</a>
+                <br><br>
+
+                <button onclick="showAlert()">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="right-2">
+            <img src="images/PrincessBride.jpg" alt="The Princess Bride">
+        </div>
+
+        <div class="clearfix"></div>
+
+
+    </main>
+
+    <footer>
+        <a href="https://twitter.com/">Follow us on Twitter!</a>
+        <!--May use twitter logo later.-->
+        <br><br>
+        Copyright &copy; 2022 Laura Pen
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
