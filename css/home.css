@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+h1 {
+    text-align: center;
+}
+nav {
+    font-size: medium;  
+}
+nav ul li {
+    text-align: center;
+    list-style-type: none;    
+}
+nav ul li a {
+    text-decoration: none;  
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+    background-color: lavender;
+}
+a:visited {
+    color: brown;
+}
